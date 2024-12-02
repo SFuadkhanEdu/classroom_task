@@ -1,0 +1,23 @@
+.nav_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 64px;
+    background-color: gray;
+    width: 100%;
+    z-index: 5;
+}
+.nav_left{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: blue;
+}
+main{
+    width: calc(100% - 300px);
+    background-color: aqua;
+    margin-left: auto;
+    padding-top: 64px;
+}
